@@ -6,8 +6,8 @@ Criar um ambiente de hospedagem web local utilizando Docker e Nginx, com uma pá
 
 Comandos utilizados neste projeto
 ```bash
-docker build -t meu-site-nginx .
-docker run -d -p 8080:80 meu-site-nginx
+docker build -t avaliacao-pratica .
+docker run -d -p 8080:80 avaliacao-pratica
 docker ps
 docker logs + ID do Container
 ```
